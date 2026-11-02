@@ -1,0 +1,478 @@
+[
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\globals.css",
+        "Hash":  "1851F7E51B79E17D2A1E3E62A79DC3F1CF70C152E09993AD452A3AAEC0D3341B"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\layout.tsx",
+        "Hash":  "A1DE3C81DACFF20A13B061ADDB25B26C9FA0918B8C84A500777DEBB202D706BE"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\page.tsx",
+        "Hash":  "8429AA89528282E4FB452C3A1106DBB53957E61E7836DB1E49B8E93307B372C3"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\(auth)\\layout.tsx",
+        "Hash":  "1B8D59EDD6E08475ECED7BCA7BE6F26F9CEA2B1C6B82BEB6EA3874B873AB5668"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\(auth)\\invite\\[token]\\invite-form.tsx",
+        "Hash":  "F7DD17CBCEEAF5889FF745A75CB15FEBE441C9602AE14D65F26A70C2328D82A1"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\(auth)\\invite\\[token]\\page.tsx",
+        "Hash":  "DE0A8BAAC6DF5C03EF704B5BA5DA539A75F38FFC95B58EE8C90682DF26B9650F"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\(auth)\\login\\login-form.tsx",
+        "Hash":  "1A25E1644B45ABAA1EF82CC89ECA98B4741F4116D1A542083D00ED967083BFA1"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\(auth)\\login\\page.tsx",
+        "Hash":  "880725505D439CF362D515DAD1A0F29B31BA69F756FE2F541C2FCAE20CA7DE3D"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\(auth)\\mfa\\mfa-form.tsx",
+        "Hash":  "58598CAB8077D3BB7D06699919FCA443C8C98B38C36BD2EA3CDE876078DBB672"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\(auth)\\mfa\\page.tsx",
+        "Hash":  "348F30E940F892BF94A1208C313544FDA7055AD7B7D0D8652F8240149B6891FC"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\(dashboard)\\layout.tsx",
+        "Hash":  "48CC254A09740D3E3663DA9DF48CC8869C1D212A8D5CB4DAAED0A9650ED16751"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\(dashboard)\\admin-team\\approvals.tsx",
+        "Hash":  "F7144D912DD994AD0E81F935D5FE78698A49CF7DA70F49661ADE9BA94B499170"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\(dashboard)\\admin-team\\invite-button.tsx",
+        "Hash":  "DDE0829A9C31EFBBB46A2DE87BFB9667D8BF381A6CAC121A93B40CC0344C85B8"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\(dashboard)\\admin-team\\page.tsx",
+        "Hash":  "30E746DF17A09E420109CFD3FA54643679B6C7BA69E7FA2C86B14E771BB5337E"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\(dashboard)\\ai-data\\page.tsx",
+        "Hash":  "CB59B9C1F33FEEB98F611679D3C4BFA08480EA67890FA091139B1BF2E02136CB"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\(dashboard)\\analytics\\page.tsx",
+        "Hash":  "99078F2A623480FF4763C64112BDD65AD00261DD90E3E513FB76085B9EB79F48"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\(dashboard)\\angel\\page.tsx",
+        "Hash":  "AC164614D4B34ED7480EA33D3858FC4422D101E3A42DDD00A62D5AA9A56A1AD3"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\(dashboard)\\audit\\page.tsx",
+        "Hash":  "B1749A5FB98C85C839B18542BC8EC07C91EB013FC228FD2A9455F807C62C499F"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\(dashboard)\\businesses\\businesses-view.tsx",
+        "Hash":  "8AD1291F0F4554A8E34CCBFDB4C4967ED8DA81335678C8B4C3B31FB8F5E74A21"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\(dashboard)\\businesses\\page.tsx",
+        "Hash":  "8D3908BFBC3407479F523C8CB6FBA3FE02576FAA0E258402881A9A330BFCF0F7"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\(dashboard)\\businesses\\[businessId]\\page.tsx",
+        "Hash":  "8CCA33F846B11962CD01BEB39D916CC264613746BDB1CB31A488FE612497ADF9"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\(dashboard)\\health\\dlq-actions.tsx",
+        "Hash":  "172905D83EF57520A6CCE92F7CE6C47AF11ED7C4A5C01D7C3850D29788807F44"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\(dashboard)\\health\\page.tsx",
+        "Hash":  "BA2A00DADD25075C6A078B88EDBAB5BD5073B9796CA6656DF03A6DEA688C2AC3"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\(dashboard)\\incidents\\incident-create.tsx",
+        "Hash":  "45A62668ED8DEAD57831DE159887F1344AE0E90F79374113260641366CBC965C"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\(dashboard)\\incidents\\page.tsx",
+        "Hash":  "3E44AAA030CD95F536F92580BE454C970DCCE09C3795F120E3F919A3F0A73C50"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\(dashboard)\\incidents\\[incidentId]\\incident-controls.tsx",
+        "Hash":  "D7D50D291951636ED117E8BE911CB77A1FA65D2FA997D25EDAC69E6E52FCB42B"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\(dashboard)\\incidents\\[incidentId]\\page.tsx",
+        "Hash":  "C1BAAEB953DFCF140F463E90728B2EFAD5AC163C9D9EAF2C729EEE76FCF919DB"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\(dashboard)\\intelligence\\page.tsx",
+        "Hash":  "1BB3D0775AE26A22F89B4C1BFD2B8EF85FB3FC47BDD22BAB5928F3557917DDDB"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\(dashboard)\\overview\\page.tsx",
+        "Hash":  "913A80CF1705076C5F8579A97300EA3140FE1B72AEC63F2A8954FC42E876ECDF"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\(dashboard)\\payments\\page.tsx",
+        "Hash":  "45FD8B8C5E248FB8E941FE7B69369566DC0474C5BED4229600D9E38961A3A737"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\(dashboard)\\payments\\payment-table.tsx",
+        "Hash":  "97D97FB6DA0B1299091892A0DABCCCC6EC81AA422606AF977CCB63240800DCCF"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\(dashboard)\\settings\\page.tsx",
+        "Hash":  "D38AF4E70C10128D60EC5A655A61620B97B22EDD8C110F334EA1D1AD3A28E895"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\(dashboard)\\settings\\pricing\\page.tsx",
+        "Hash":  "37243A56A67DAAFE04F5EEC13F20846496D801C2EF035C4F8FB020D4C3C38216"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\(dashboard)\\subscriptions\\page.tsx",
+        "Hash":  "A873323858F0C4E93BAF31B5F579F3E256A9BF6C95460F9238B2C26C3361788D"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\(dashboard)\\vision\\page.tsx",
+        "Hash":  "9C2940E33A0F3E5CB56B32158770CD0AC5F403392F089231EE4FA09D970632B4"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\403\\page.tsx",
+        "Hash":  "69C9DCD82D6FB33336DF47D0717E284802FE15268B0DA640F7677F357B4B9BD3"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\api\\v1\\admin-team\\invite\\route.ts",
+        "Hash":  "D84F49A5845F7ED7B72C28A7F264462D967BC365B93F8DBD8F4AD6837CC2281B"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\api\\v1\\audit\\export\\route.ts",
+        "Hash":  "928540D251669FB7A4522E32E32A5B6FB2E52DEF6B1D9B3766593974BC388145"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\api\\v1\\auth\\demo\\route.ts",
+        "Hash":  "AD74477008148131B9C127FBAE7CD893592F247A6F6754A2CDA389DDC74B2B75"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\api\\v1\\auth\\logout\\route.ts",
+        "Hash":  "1180026069ED6527B3E0FD286F44D927AE581EC7A8D2A5D16059290E8298CAA0"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\api\\v1\\commands\\route.ts",
+        "Hash":  "295ADA106B80F2E070D346550FB02F9960C9C8C70BB5A5DCCAE48878B4DC7892"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\api\\v1\\commands\\[id]\\route.ts",
+        "Hash":  "8B471AD941DA58B9AA7DEFE91F671D74C068BDD68E96B257E8C2684D3B446856"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\api\\v1\\commands\\[id]\\approve\\route.ts",
+        "Hash":  "1AF099F46A7B4FEE2D3863D43AEAA4BA1396C708A78102FA9DB97D606909DB25"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\api\\v1\\commands\\[id]\\reject\\route.ts",
+        "Hash":  "F2E617DD4723A9A4E95FF6154BC06C37A7DB2774ECAE81271839470361EA2E87"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\api\\v1\\health\\route.ts",
+        "Hash":  "E867B27062EEDDD0435FAC7475358CB68857484F6C64C40E2112931F3F8C340F"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\api\\v1\\health\\dead-letters\\[id]\\retry\\route.ts",
+        "Hash":  "F15E06B16CF2B875C8897A6BB9ACD6DF5B493C3E377ED961E34CAB8FE59A84C5"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\api\\v1\\incidents\\route.ts",
+        "Hash":  "38F228CE576E942433808F09A79739944CC852F4772D27A779D745EFD52F49A6"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\api\\v1\\incidents\\[id]\\route.ts",
+        "Hash":  "9196D32D75BD9F2E64A9AB7228608576EB6B93B490082C4E6764175B639AEEB5"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\app\\api\\v1\\notifications\\read\\route.ts",
+        "Hash":  "263084E8E26D5DBC4B59556CCA638469F500079FCF61536EBEF643B1C0EC2356"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\components\\providers.tsx",
+        "Hash":  "F3C7BB953CE260CF3F2EBCE73151938DA61FA22086B80844BFE15DEBF0BEB69E"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\components\\states.tsx",
+        "Hash":  "0A4AD1EDF438677FBDD041900A8B114D376338D165A59B435081ED0BEBE0D0AC"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\components\\charts\\charts-bars.tsx",
+        "Hash":  "F3072EF0C2DB8D45C0DD90516B3A8F9E30C57D1693A1D0438F6E03493244E260"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\components\\charts\\charts.tsx",
+        "Hash":  "5C79EE49439E78627EE517174D2C9AEEFA0E59FAA40311CBDA40DB2932917287"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\components\\domain\\business-actions.tsx",
+        "Hash":  "C70882B91A02375A45F01A862A9F1879C745F5014651CC0EB12F0E0A542443F6"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\components\\domain\\capability-banner.tsx",
+        "Hash":  "2072F99B6567FFAEAEAE58F2371DD0DA629EC7FCFB0A387EC0997D9A5F475493"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\components\\domain\\command-dialog.tsx",
+        "Hash":  "56E3FAEAA499543F09877BDE5B91E3110003C92AFE6430E6AE13C5B057B23566"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\components\\domain\\command-status-card.tsx",
+        "Hash":  "829121BE5993CC0AC2940CA7F34D5ED86AE57F301153B24E729E4DCC35A1AFBE"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\components\\domain\\definitions-panel.tsx",
+        "Hash":  "07D7A1C02DCB9076CDD29AD9CA2F98ED8374F3CD5FE0170DB76E5E0166670BA7"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\components\\domain\\pricing-matrix.tsx",
+        "Hash":  "BD09C957C23E80FBC628C167F7F3B100296C69C09214A0F1C69CF3EC374540D8"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\components\\domain\\timeline.tsx",
+        "Hash":  "A68D971E4A2A903EBBA17E13EFE17CDF1903DC8530CD9578654039169106DD0C"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\components\\kpi\\kpi-card.tsx",
+        "Hash":  "61704D69AB48F277FFE6FDDF2821B2A78B8EB744D2330E29B73FEBFCAF32AB9A"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\components\\layout\\command-palette.tsx",
+        "Hash":  "42CDD50A5C36079B9FA6C81B3344338704C7153D69FB3AA7A0B6E3A45D3ACF81"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\components\\layout\\date-range.tsx",
+        "Hash":  "84A043F3375C00D90640E4F715DE2AF55F8CEE43BA87EC2F7588752AB051B87F"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\components\\layout\\nav-config.ts",
+        "Hash":  "1D397C0788B6711F80FA6A49EC3360942403F5B056E2920DA52848E6798F5865"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\components\\layout\\notifications.tsx",
+        "Hash":  "430E5048C4DFEAEC82981437AA852EAEE38BA1F3AA3D313902536CD3602987BB"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\components\\layout\\page-header.tsx",
+        "Hash":  "21B8C9E83C66630C1929804AD13552784102400EA65F68D602BC8D2787B1A599"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\components\\layout\\shell.tsx",
+        "Hash":  "80A51B739D16DED6A5EDF537EB50BDD1D2137A8808FB96475D9303B819992CD3"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\components\\layout\\sidebar.tsx",
+        "Hash":  "2A79EA91F8ECB58EEC6B53DF13CBE28C0460ABC88B22F1186B90A3E30F08F624"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\components\\layout\\topbar.tsx",
+        "Hash":  "70B6373B477B9F7C8DA6E227F8811DEEF8D160989632D11E82FC58FBC3B8857A"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\components\\layout\\user-menu.tsx",
+        "Hash":  "0AE367E79BD78720EB6472A8DEE484F26C1413E0175901B091B84F5ED509DA19"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\components\\ui\\badge.tsx",
+        "Hash":  "672D1B7E869443CF096E4F18D3EC81C67908345D1FC2B630442E0400BE3CF663"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\components\\ui\\button.tsx",
+        "Hash":  "551FB7CB6E82EF3AB26EAE0C42B1FE62C65702EC97DC6D98490A761F5F5DF415"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\components\\ui\\card.tsx",
+        "Hash":  "E49B6B3F03DF43EF76C70252B2F81969C8CFF18796C1A3E28AF289DED8C79D93"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\components\\ui\\dialog.tsx",
+        "Hash":  "4EC0221FBA2F978B17AEB3EC4AFA3FA0CCCEDBCB96E4E55EFFA96ED889C55D81"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\components\\ui\\dropdown-menu.tsx",
+        "Hash":  "697A74AED80F3F7C45DACE2144CD317F6BFD1150F4FA96AFCE3119F00B6638E3"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\components\\ui\\input.tsx",
+        "Hash":  "3B363AC4DF8006F6C5D38CD3279742076555D09890EFDA962D24F9E90AF8A351"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\components\\ui\\misc.tsx",
+        "Hash":  "33519B0B2B19F001CDB0CBE353939CAF7906A901C7E7BC029B83729EC6014451"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\components\\ui\\table.tsx",
+        "Hash":  "DB2517857A8E89032338AE01EE7F4BDBB2BD90A46FE64C5FDABAD3FAADDB6AB2"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\components\\ui\\tabs.tsx",
+        "Hash":  "8D746CE1853E432F7EBFA4DAD65ED986B93454FD03B7FFFBBC470E322C3A0797"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\components\\ui\\toast.tsx",
+        "Hash":  "E7E8E4A1F27CCA0212BF6481D6F9835FE97CA6C9CA04D4F70427564FC6CE4073"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\components\\ui\\tooltip.tsx",
+        "Hash":  "EB907380CA3C01DAD8F72717CC67C6531BE1077B060BB54812F5B0DDD53E360A"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\lib\\auth\\permissions.ts",
+        "Hash":  "7620A9099182B00C0AB469816C2301ACA6DA5609C99FA8163E6C22142D558F91"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\lib\\auth\\session.ts",
+        "Hash":  "7580B29C8D7C157D9F5A6FFCBAB87778DD99471B6244D9FD3115B49D7328FFD4"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\lib\\data\\demo.ts",
+        "Hash":  "44881697866E10973B0A2351B9A05358ECDF8220FE4FA7ED720B889A32291BAD"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\lib\\data\\index.ts",
+        "Hash":  "7885EB754536025934D9FE52DC491D327492EEEAB1EFAB114938E9EF5F012C0D"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\lib\\data\\provider.ts",
+        "Hash":  "A2CAC472DF35C4FD500A48F72F944EA62B46402EF59261E6752A2304EE88CA42"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\lib\\data\\supabase-mutations.ts",
+        "Hash":  "ADB2F925DCF441A75A89FEA5AD3FECF6F8369EE57D0A25D94C8C2FBD2CEDA33E"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\lib\\data\\supabase.ts",
+        "Hash":  "1D00167A2920DEFBC4B4E82DB32D63A5DDFB0BA6067280F6ADDA5B8DAA2C7232"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\lib\\data\\types-core.ts",
+        "Hash":  "16704D036D4B7756FD031711B1E831310298F59596C94CB5EDB0819F34A23B16"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\lib\\data\\types-ops.ts",
+        "Hash":  "24E0D0340871BBB0F152153FA0F382A7B0F07B26BB376DF2D22E573AAE441444"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\lib\\data\\types-revenue.ts",
+        "Hash":  "DB3E39DC8D7D45327B3E57F788B12783C2353C37C8C612A960FF6FBF4F53B915"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\lib\\data\\types-services.ts",
+        "Hash":  "D0424AC66E2508942FF06C0B2EBF81848E63FD969AB094D7BB577D0791A3C65E"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\lib\\data\\types.ts",
+        "Hash":  "8D5865DCC7A961CD3437DB4EEA3BA9C3AA72D102990E0F449AFF6BDFF89C06CC"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\lib\\demo\\data.ts",
+        "Hash":  "E8F4B02D7B945D15D25F68D250BEAEDA0FF03D56B85404EA8805ABED2EAC4920"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\lib\\demo\\rand.ts",
+        "Hash":  "18C53DDA381018715FFC0C58645C1CB20F07C9B1B13D0C165EA19A5D11520D68"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\lib\\demo\\seed-business.ts",
+        "Hash":  "C90B234E0D785B0A2706ADDDDE11FB445766CEA24C79ABD9145F7038AC32C24D"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\lib\\demo\\seed-governance.ts",
+        "Hash":  "554F81BA4BB3E5CF191F218B254C2E627A347C260C3D857A3A47C1571C0B3CB4"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\lib\\demo\\seed-monitoring.ts",
+        "Hash":  "6A4D9DBFC63B2F61B9566DFB08DECBCE1C0241428D01F5E336BD850930C6D698"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\lib\\demo\\seed-notifications.ts",
+        "Hash":  "467A7B5231840712B835314E0D428807CECC466B8C3435BFF2CF33682BB4EA71"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\lib\\demo\\seed-ops.ts",
+        "Hash":  "2259C3984337E4624EBF8295CAB250A47D3E6E355FA755FA33547953FBC055B0"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\lib\\demo\\seed-payments.ts",
+        "Hash":  "97F77666210934EFBEEE14C15708E71BAAC1001D715AE321FF6F209640DEEF12"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\lib\\demo\\seed-registry.ts",
+        "Hash":  "BA1E05EDB5F0FAD766E04FDB1E31485892C8A5A2C1A67FE7DC826AA6864B3FA5"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\lib\\demo\\store.ts",
+        "Hash":  "C52DEDFB9C4784A43E52F518FC16F0B20A9D1813713A30D577BA49BF24EE0041"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\lib\\supabase\\client.ts",
+        "Hash":  "CD8A8314AE65CF4881C9DF929A6E96099248E0DF5261DB574E6FF576C610EC32"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\lib\\supabase\\server.ts",
+        "Hash":  "FABBA3A0287D5E78B4B02E24A7E71005F0B17A1F35B4378087A8F1190C0E7F3C"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\lib\\utils\\cn.ts",
+        "Hash":  "C0ADF27EFBFA148D5ABCF99E860F8E3E6C8FC77A1F99E023C08EF4F12E6ECE29"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\lib\\utils\\format-extra.ts",
+        "Hash":  "D2E07EA427934A631BEB57B2ABB5E1F45B1036F32A085A3A9C0B721C5637643F"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\src\\lib\\utils\\format.ts",
+        "Hash":  "439C8D1467046DC6982ED7E2AAC94C58DA5E02302E71A96B8C968BBE3A19FF6F"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\supabase\\config.toml",
+        "Hash":  "91F25A935FD64E08E100541826ACBBA40965A20F5845DFD8977554F3E4859F19"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\supabase\\functions\\dispatch-command\\index.ts",
+        "Hash":  "18C7154FF72050C3EF6BFC7B299FFD29972384B462303AA3FAEF25E2809C0B32"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\supabase\\functions\\ingest-event\\index.ts",
+        "Hash":  "144F92959BFDB809C5B3E25A73D1658EE4EE9790FA28DB99A2C7F05A06186C2C"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\supabase\\migrations\\0001_init.sql",
+        "Hash":  "C0A5B83733C98A47F862076E3C905631A8EF8376EFBE139AD7B17788D9F5B7AD"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\supabase\\migrations\\0002_governance.sql",
+        "Hash":  "E4E76B95CFDD62CE996F92CEA1447547E9B4285BB4CFA79189929836598A6DD4"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\supabase\\migrations\\0003_projections.sql",
+        "Hash":  "BC9158F94FB5AF521D03FE1C8E5D26A7525CDF069E49F8BB3D2389BFC2399108"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\supabase\\migrations\\0004_operations.sql",
+        "Hash":  "EB7D771D2C6C927659D90B252779F1F4B86E72A156630DC3272AC45C90AF3E70"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\supabase\\seed\\seed.sql",
+        "Hash":  "C70F24357560947750AC592167C82F70F79D34E45C1AC13D94DDCF86709E97AE"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\tests\\e2e\\smoke.spec.ts",
+        "Hash":  "FB5604AB4BDC652E0C821A7B7097427068016AEA88B0D4430C14902C9AB13E1B"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\tests\\unit\\format.test.ts",
+        "Hash":  "F814621694A7442EA8F4A554D178C1231E59ABDB156E5AA317F630A3AE5CAE29"
+    },
+    {
+        "Path":  "C:\\Users\\USER\\Downloads\\Trexven Admin\\app\\tests\\unit\\permissions.test.ts",
+        "Hash":  "39FE47FE2373ED98F583FFCF5BE57D8DB2455F1C5E8A614492EA10B4CC6A0283"
+    }
+]

@@ -1,0 +1,30 @@
+project_id = "tsnkzkpgxvomfuzyeyup"
+
+[auth]
+additional_redirect_urls = [
+  "http://localhost:3000/invite/accept",
+  "http://localhost:3000/reset?step=change",
+  "http://localhost:3000/auth/confirm",
+  "http://127.0.0.1:3000/invite/accept",
+  "http://127.0.0.1:3000/reset?step=change",
+  "http://127.0.0.1:3000/auth/confirm",
+]
+
+[functions.ingest-event]
+verify_jwt = true
+
+[functions.dispatch-command]
+verify_jwt = true
+
+# These handlers perform their own dedicated-token or validated-user authentication.
+[functions.admin-invitations]
+verify_jwt = false
+[functions.sync-production]
+verify_jwt = false
+[functions.admin-reporting-export]
+verify_jwt = false
+
+[functions.business-admin-action]
+verify_jwt = false
+[functions.admin-business-control]
+verify_jwt = false

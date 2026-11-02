@@ -1,0 +1,1 @@
+export default function Loading(){return <div role="status" aria-live="polite" className="space-y-4"><p className="text-sm text-muted-foreground">Loading Admin data…</p><div aria-hidden className="grid gap-4 sm:grid-cols-3">{[1,2,3].map(n=><div key={n} className="h-28 animate-pulse rounded-lg bg-surface-muted" />)}</div></div>;}

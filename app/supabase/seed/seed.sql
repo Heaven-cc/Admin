@@ -1,0 +1,4 @@
+-- No sample records are seeded.
+-- Apply only the appropriate reviewed project migrations.
+-- Business and operational data must come from authorized integrations.
+-- Configure country pricing independently; never seed example amounts.

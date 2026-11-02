@@ -1,0 +1,27 @@
+create or replace function public.trexven_admin_reporting_snapshot(p_offset integer default 0,p_limit integer default 100) returns jsonb language plpgsql stable security definer set search_path='' as $$
+declare v_key text; v_total integer; v_result jsonb;
+begin
+ select pseudonym_key into v_key from private.admin_reporting_config where id and enabled;
+ if v_key is null then raise exception 'REPORTING_DISABLED'; end if;
+ if p_offset<0 or p_limit not between 1 and 100 then raise exception 'Invalid pagination'; end if;
+ select count(*) into v_total from public.businesses;
+ with page as (select businesses.*,case when currency in ('NGN','GHS','XOF') then currency when currency='Nigerian Naira (?)' then 'NGN' when currency='Ghanaian Cedi (GH?)' then 'GHS' when currency='West African CFA Franc (CFA)' then 'XOF' else null end as reporting_currency from public.businesses order by id limit p_limit offset p_offset), entries as (
+ select jsonb_build_object(
+ 'business_ref',md5('business:'||b.id::text||v_key)::uuid,'name',left(b.business_name,160),
+ 'country_code',case upper(trim(b.country)) when 'NG' then 'NG' when 'NIGERIA' then 'NG' when 'GH' then 'GH' when 'GHANA' then 'GH' when 'TG' then 'TG' when 'TOGO' then 'TG' when 'CI' then 'CI' when 'IVORY COAST' then 'CI' when 'COTE D''IVOIRE' then 'CI' else null end,
+ 'currency',case when b.reporting_currency in ('NGN','GHS','XOF') then b.reporting_currency end,'registered_at',b.created_at,
+ 'source_updated_at',greatest(b.updated_at,s.updated_at),'last_active_at',greatest(activity.last_sale,activity.last_product_change),
+ 'product_count',activity.products,'camera_count',activity.cameras,'online_cameras',activity.online_cameras,
+ 'subscription',case when s.id is null then null else jsonb_build_object('plan_key',s.plan_id,'status',s.status,'period_start',s.started_at,'period_end',s.expires_at,'renews_at',s.renews_at,'auto_renew',not s.cancel_at_period_end,'source_version',s.version,'source_updated_at',s.updated_at,'amount_minor',case when plan.currency='XOF' then case when plan.price=trunc(plan.price) then plan.price::bigint end when plan.currency in ('NGN','GHS') then (plan.price*100)::bigint end,'currency',plan.currency,'interval_months',plan.interval_months) end,
+ 'payments',coalesce((select jsonb_agg(jsonb_build_object('id',md5('payment:'||p.id::text||v_key)::uuid,'provider',left(p.provider,40),'provider_ref',left(p.payment_ref,200),'amount_minor',case when p.currency='XOF' then case when p.amount=trunc(p.amount) then p.amount::bigint end when p.currency in ('NGN','GHS') then (p.amount*100)::bigint end,'currency',p.currency,'status',p.status,'occurred_at',coalesce(p.verified_at,bs.created_at))) from public.billing_payments p join public.billing_sessions bs on bs.id=p.session_id where p.business_id=b.id),'[]'::jsonb),
+ 'usage',coalesce((select jsonb_agg(jsonb_build_object('metric_date',d.metric_date,'transactions',d.transactions,'gmv_minor',case when b.reporting_currency='XOF' and d.complete and d.amount=trunc(d.amount) then d.amount::bigint when b.reporting_currency in ('NGN','GHS') and d.complete then round(d.amount*100)::bigint end,'currency',b.reporting_currency)) from (select (coalesce(sale.sold_at,sale.created_at) at time zone 'UTC')::date metric_date,count(*) transactions,sum(coalesce(sale.total_amount,sale.total)) amount,bool_and(coalesce(sale.total_amount,sale.total) is not null) complete from public.sales sale where sale.business_id=b.id and sale.status='completed' and coalesce(sale.sold_at,sale.created_at)>=now()-interval '90 days' group by 1) d),'[]'::jsonb)
+ ) entry from page b left join public.business_subscriptions s on s.business_id=b.id left join public.subscription_plans plan on plan.id=s.plan_id
+ cross join lateral(select (select max(coalesce(sale.sold_at,sale.created_at)) from public.sales sale where sale.business_id=b.id and sale.status='completed') last_sale,(select max(p.updated_at) from public.products p where p.business_id=b.id) last_product_change,(select count(*) from public.products p where p.business_id=b.id) products,(select count(*) from public.cameras c where c.business_id=b.id and c.is_active) cameras,(select count(*) from public.cameras c where c.business_id=b.id and c.is_active and c.last_seen_at>now()-interval '5 minutes') online_cameras) activity
+ ) select coalesce(jsonb_agg(entry),'[]'::jsonb) into v_result from entries;
+ return jsonb_build_object('schema_version',1,'captured_at',now(),'page_offset',p_offset,'next_offset',case when p_offset+p_limit<v_total then p_offset+p_limit end,'source_count',v_total,'businesses',v_result,
+ 'errors',case when p_offset=0 then coalesce((select jsonb_agg(to_jsonb(e)) from (select application,error_code,(created_at at time zone 'UTC')::date metric_date,count(*) occurrences,max(created_at) last_seen_at from public.application_error_events where created_at>=now()-interval '30 days' group by 1,2,3) e),'[]'::jsonb) else '[]'::jsonb end,
+ 'angel_activity',case when p_offset=0 then jsonb_build_object('persisted_messages_24h',(select count(*) from public.angel_messages where created_at>=now()-interval '24 hours'),'conversations_24h',(select count(*) from public.angel_conversations where created_at>=now()-interval '24 hours')) else null end);
+end $$;
+revoke all on function public.trexven_admin_reporting_snapshot(integer,integer) from public,anon,authenticated;
+grant execute on function public.trexven_admin_reporting_snapshot(integer,integer) to service_role;
+

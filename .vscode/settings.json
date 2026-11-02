@@ -1,0 +1,7 @@
+{
+  "typescript.tsdk": "app/node_modules/typescript/lib",
+  "eslint.workingDirectories": [{ "directory": "./app", "changeProcessCWD": true }],
+  "deno.enablePaths": ["./app/supabase/functions"],
+  "deno.path": "./app/.cache/deno-tool/node_modules/deno/deno.exe",
+  "deno.cache": "./app/.next/cache/deno"
+}

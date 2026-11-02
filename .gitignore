@@ -1,0 +1,33 @@
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# Dependencies, generated output, and local caches
+node_modules/
+.cache/
+.next/
+.next-preserved-*/
+out/
+build/
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+next-env.d.ts
+*.log
+.DS_Store
+Thumbs.db
+
+# Local Supabase CLI state and dependency-recovery artifacts
+app/supabase/.temp/
+app/supabase/.branches/
+app/install-check.txt
+app/poll.ps1

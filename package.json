@@ -1,0 +1,16 @@
+{
+  "name": "trexven-admin-workspace",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Root commands for the TREXVEN Admin application in app/.",
+  "scripts": {
+    "dev": "npm --prefix app run dev --",
+    "build": "npm --prefix app run build --",
+    "start": "npm --prefix app run start --",
+    "lint": "npm --prefix app run lint --",
+    "typecheck": "npm --prefix app run typecheck --",
+    "test": "npm --prefix app run test --",
+    "verify": "npm --prefix app run verify --",
+    "test:e2e": "npm --prefix app run test:e2e --"
+  }
+}

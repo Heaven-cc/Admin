@@ -1,0 +1,1 @@
+export default function NotFound(){return <div className="p-8 text-center"><h1 className="text-xl font-semibold">Page or record not found</h1><p className="mt-2 text-sm text-muted-foreground">This record may be unavailable to your administrator role.</p><a href="/overview" className="mt-4 inline-block text-brand">Return to overview</a></div>;}
